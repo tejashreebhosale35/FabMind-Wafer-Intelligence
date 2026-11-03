@@ -1,0 +1,449 @@
+
+/* --------------------------------------------------
+   GLOBAL
+-------------------------------------------------- */
+
+.stApp {
+    background-color: #f4f6fb;
+    color: #1f2937;
+}
+
+.block-container {
+    max-width: 1450px;
+    padding-top: 2.2rem;
+    padding-bottom: 3rem;
+}
+
+/* --------------------------------------------------
+   SIDEBAR
+-------------------------------------------------- */
+
+[data-testid="stSidebar"] {
+    background-color: #202d40 !important;
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    background-color: #202d40 !important;
+}
+
+/* Hide only the automatic multipage navigation */
+[data-testid="stSidebarNav"] {
+    display: none !important;
+}
+
+/* Sidebar text */
+[data-testid="stSidebar"] {
+    color: #f4f7fb;
+}
+
+/* Sidebar navigation buttons */
+[data-testid="stSidebar"] .stButton > button {
+    background-color: transparent !important;
+    color: #f4f7fb !important;
+    border: none !important;
+    border-radius: 7px !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    padding: 10px 12px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+}
+
+/* Keep button labels on one line */
+[data-testid="stSidebar"] .stButton > button p {
+    color: #f4f7fb !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    margin: 0 !important;
+}
+
+/* Hover effect */
+[data-testid="stSidebar"] .stButton > button:hover {
+    background-color: #34465e !important;
+    color: #63d6a3 !important;
+}
+
+/* Radio labels */
+[data-testid="stSidebar"] .stRadio label {
+    font-size: 14px !important;
+    color: #ffffff !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Brand */
+.brand {
+    padding: 4px 4px 22px 4px;
+}
+
+.brand-title {
+    color: #63d6a3;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+.brand-subtitle {
+    color: #c4cfdf;
+    font-size: 10px;
+    margin-top: 12px;
+}
+
+/* Sidebar menu */
+.menu-heading {
+    color: #8da9c8;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.status-card {
+    background-color: #245348;
+    color: #ffffff;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.sidebar-info {
+    color: #aeb9c9;
+    font-size: 11px;
+    margin-top: 16px;
+}
+
+/* --------------------------------------------------
+   MAIN PAGE
+-------------------------------------------------- */
+
+.app-header {
+    color: #203047;
+    font-size: 29px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.page-description {
+    color: #607087;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+/* Home intro */
+.intro-card {
+    background-color: #1b1d25;
+    color: #f5f7fb;
+    padding: 22px;
+    border-radius: 9px;
+    line-height: 1.8;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+/* Overview cards */
+.overview-card {
+    background-color: #ffffff;
+    border: 1px solid #e4e9f1;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 145px;
+    box-shadow: 0 2px 8px rgba(25, 40, 65, 0.04);
+}
+
+.overview-card h3 {
+    color: #36a77c;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 23px;
+}
+
+.overview-card b {
+    color: #26364c;
+    font-size: 15px;
+}
+
+.overview-card p {
+    color: #718096;
+    font-size: 13px;
+    margin-top: 9px;
+}
+
+/* --------------------------------------------------
+   BUTTONS
+-------------------------------------------------- */
+
+.stButton > button {
+    background-color: #267f67;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 9px 20px;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background-color: #1d6955;
+    color: #ffffff;
+    border: none;
+}
+
+/* --------------------------------------------------
+   INPUTS AND CONTAINERS
+-------------------------------------------------- */
+
+[data-testid="stFileUploader"] {
+    background-color: #ffffff;
+    border: 1px dashed #aebccc;
+    border-radius: 9px;
+    padding: 12px;
+}
+
+[data-testid="stMetric"] {
+    background-color: #ffffff;
+    border: 1px solid #e4e9f1;
+    border-radius: 9px;
+    padding: 16px;
+}
+
+[data-testid="stDataFrame"] {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Alerts */
+.stAlert {
+    border-radius: 8px;
+}
+
+/* --------------------------------------------------
+   FOOTER
+-------------------------------------------------- */
+
+.footer {
+    border-top: 1px solid #e1e6ee;
+    color: #8995a5;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 55px;
+    padding-top: 18px;
+}
+
+/* --------------------------------------------------
+   STREAMLIT TOP HEADER
+-------------------------------------------------- */
+
+[data-testid="stHeader"] {
+    background-color: #f4f6fb !important;
+}
+
+[data-testid="stToolbar"] {
+    background-color: #f4f6fb !important;
+}
+
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+/* --------------------------------------------------
+   MAIN PAGE TEXT VISIBILITY
+-------------------------------------------------- */
+
+[data-testid="stMain"] {
+    color: #26364c !important;
+}
+
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] p,
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] h1,
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] h2,
+[data-testid="stMain"] [data-testid="stMarkdownContainer"] h3 {
+    color: #26364c !important;
+}
+
+/* --------------------------------------------------
+   WAFER ANALYSIS RADIO OPTIONS
+-------------------------------------------------- */
+
+/* Radio group heading */
+[data-testid="stMain"] [data-testid="stRadio"] > label,
+[data-testid="stMain"] [data-testid="stRadio"] > label p {
+    color: #26364c !important;
+    font-weight: 600 !important;
+    opacity: 1 !important;
+}
+
+/* Radio option labels */
+[data-testid="stMain"] [data-testid="stRadio"] div[role="radiogroup"] label,
+[data-testid="stMain"] [data-testid="stRadio"] div[role="radiogroup"] label p,
+[data-testid="stMain"] [data-testid="stRadio"] div[role="radiogroup"] label span,
+[data-testid="stMain"] [data-testid="stRadio"] div[role="radiogroup"] label div {
+    color: #26364c !important;
+    opacity: 1 !important;
+    font-weight: 500 !important;
+}
+
+/* Radio option text */
+[data-testid="stMain"] [data-testid="stRadio"] div[role="radiogroup"] p {
+    color: #26364c !important;
+}
+
+/* --------------------------------------------------
+   NUMBER INPUT
+-------------------------------------------------- */
+
+[data-testid="stMain"] input {
+    color: #26364c !important;
+    background-color: #ffffff !important;
+}
+
+[data-testid="stMain"] [data-testid="stNumberInput"] button {
+    color: #26364c !important;
+}
+
+/* --------------------------------------------------
+   FILE UPLOADER TEXT
+-------------------------------------------------- */
+
+[data-testid="stMain"] [data-testid="stFileUploader"] {
+    color: #26364c !important;
+}
+
+[data-testid="stMain"] [data-testid="stFileUploader"] * {
+    color: #26364c !important;
+}
+
+/* --------------------------------------------------
+   RESPONSIVE LAYOUT
+-------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .app-header {
+        font-size: 22px;
+    }
+
+    .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* =========================================
+   FILE UPLOADER - VISIBILITY 
+========================================= */
+
+/* Upload area text */
+[data-testid="stMain"] [data-testid="stFileUploader"] p,
+[data-testid="stMain"] [data-testid="stFileUploader"] span,
+[data-testid="stMain"] [data-testid="stFileUploader"] small,
+[data-testid="stMain"] [data-testid="stFileUploader"] div {
+    color: #f4f7fb !important;
+    opacity: 1 !important;
+}
+
+/* Browse menu button */
+[data-testid="stMain"] [data-testid="stFileUploader"] button {
+    background-color: #267f67 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-weight: 600 !important;
+}
+
+
+/* Sidebar navigation buttons */
+
+[data-testid="stSidebar"] .stButton > button {
+    background-color: transparent !important;
+    color: #e5edf7 !important;
+    border: none !important;
+    border-radius: 7px !important;
+    text-align: left !important;
+    padding: 10px 12px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    box-shadow: none !important;
+}
+
+[data-testid="stSidebar"] .stButton > button:hover {
+    background-color: #34465e !important;
+    color: #63d6a3 !important;
+}
+
+/* Button text alignment */
+[data-testid="stSidebar"] .stButton > button p {
+    text-align: left !important;
+    color: inherit !important;
+}
+/* Left-align sidebar navigation button text */
+
+[data-testid="stSidebar"] .stButton > button {
+    display: flex !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    padding-left: 16px !important;
+}
+
+[data-testid="stSidebar"] .stButton > button > div {
+    width: 100% !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+}
+
+[data-testid="stSidebar"] .stButton > button p {
+    width: 100% !important;
+    text-align: left !important;
+    margin: 0 !important;
+}
+/* Sidebar navigation - single line labels */
+
+[data-testid="stSidebar"] .stButton > button {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    white-space: nowrap !important;
+    padding: 10px 8px !important;
+    font-size: 12px !important;
+    text-align: left !important;
+}
+
+[data-testid="stSidebar"] .stButton > button p {
+    white-space: nowrap !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    text-align: left !important;
+}
+
+/* Give sidebar a little more width */
+[data-testid="stSidebar"] {
+    min-width: 270px !important;
+    max-width: 270px !important;
+}
+/* Sidebar menu button text */
+[data-testid="stSidebar"] .stButton > button {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+/* Keep menu labels on one line */
+[data-testid="stSidebar"] .stButton > button p {
+    font-size: 15px !important;
+    white-space: nowrap !important;
+}
+
+/* FabMind branding */
+.brand-title {
+    font-size: 29px !important;
+}
+
+/* Semiconductor Intelligence Platform subtitle */
+.brand-subtitle {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    white-space: nowrap !important;
+}

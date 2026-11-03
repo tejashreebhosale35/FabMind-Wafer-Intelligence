@@ -1,0 +1,32 @@
+# Python environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Dataset files - large
+data/*.pkl
+data/processed/*.pkl
+
+# Model checkpoints
+outputs/models/*.pth
+outputs/models/*.pt
+
+# Generated outputs
+outputs/logs/
+outputs/results/
+outputs/visualizations/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
